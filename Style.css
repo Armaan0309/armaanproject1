@@ -1,0 +1,674 @@
+/* Reset css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: "Barlow", sans-serif; */
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 123px;
+    font-family: "Barlow", sans-serif;
+}
+
+/* Navigation Bar: logo and image styling */
+#logo{
+    display: flex;
+    margin: 12px 20px;
+    cursor: pointer;
+}
+
+#logo img{
+    height: 93px;
+    margin: 17px 69px;
+}
+
+
+/* Navigation Bar: list styling */
+#navbar ul{
+    display: flex;
+    padding-inline-start: 490px;
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 18px;
+    margin-top: 4px;
+
+
+}
+#navbar ul li a{
+    display: block;
+    color: black;
+    padding: 18px 12px;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+
+}
+#navbar ul li a:hover{
+    display: block;
+    color: #ff7b54;
+}
+.btn{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: 8px 23px;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+
+}
+.btn:hover{
+    background-color: #f45626;
+}
+
+/* Home Section */
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home h1{
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    color: #092032;
+    
+}
+
+
+#Home p{
+    text-align: center;
+    width: 630px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    color: #516171;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+#Home-boxes{
+    height: 500px;
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    
+}
+#Home-boxes .box{
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin: 14px;
+    border-radius: 5px;
+    line-height: 1.7;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+
+    
+}
+#Home-boxes .box p{
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: -29px;
+    transition: 0.3s;
+
+}
+
+#Home-boxes .box p:hover{
+    color: #f45626;
+
+}
+#Home-boxes .box img{
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+.btn-advice{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-advice:hover{
+    background-color: #f45626;
+}
+.btn-course{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-course:hover{
+    background-color: #f45626;
+}
+.btn-workshop{
+    display: block;
+    width: 200px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-workshop:hover{
+    background-color: #f45626;
+}
+
+/* career advisory section */
+#Career{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Career h1{
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    color: #092032;
+    
+}
+#Career p{
+    text-align: center;
+    width: 630px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    color: #516171;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    /* border: 2px solid red; */
+}
+
+#Career-boxes{
+    height: 500px;
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    text-align: center;
+    
+}
+#Career-boxes .box{
+    /* border: 2px solid red; */
+    height: 535px;
+    padding: 10px;
+    margin: 14px;
+    border-radius: 5px;
+    line-height: 1.7;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+
+    
+}
+#Career-boxes .box p{
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: -29px;
+    transition: 0.3s;
+
+}
+#Career-boxes .box p:hover{
+    color: #f45626;
+
+}
+#Career-boxes .box img{
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+.btn-graduate{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-graduate:hover{
+    background-color: #f45626;
+}
+.btn-confuse{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-confuse:hover{
+    background-color: #f45626;
+}
+.btn-interviews{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-interviews:hover{
+    background-color: #f45626;
+}
+
+/* Role focused section -1*/
+
+#Role1{
+    display: flex;
+    flex-direction: column;
+    padding: 102px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Role1 h1{
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    color: #092032;
+    
+}
+#Role1 p{
+    text-align: center;
+    width: 630px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    color: #516171;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    /* border: 2px solid red; */
+}
+
+#Role1-boxes{
+    height: 588px;
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    text-align: center;
+    
+}
+#Role1-boxes .box{
+    /* border: 2px solid red; */
+    height: 500px;
+    padding: 10px;
+    margin: 14px;
+    border-radius: 5px;
+    line-height: 1.7;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+
+    
+}
+#Role1-boxes .box p{
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: -29px;
+    transition: 0.3s;
+
+}
+#Role1-boxes .box p:hover{
+    color: #f45626;
+
+}
+#Role1-boxes .box img{
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+.btn-developer{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-developer:hover{
+    background-color: #f45626;
+}
+.btn-python{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-python:hover{
+    background-color: #f45626;
+}
+.btn-java{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-java:hover{
+    background-color: #f45626;
+}
+
+
+
+/* Role focused section -2*/
+
+
+#Role2-boxes{
+    height: 617px;
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    text-align: center;
+    
+}
+#Role2-boxes .box{
+    /* border: 2px solid red; */
+    height: 500px;
+    padding: 10px;
+    margin: 14px;
+    border-radius: 5px;
+    line-height: 1.7;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+
+    
+}
+#Role2-boxes .box p{
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: -29px;
+    transition: 0.3s;
+
+}
+#Role2-boxes .box p:hover{
+    color: #f45626;
+
+}
+#Role2-boxes .box img{
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+.btn-react{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-react:hover{
+    background-color: #f45626;
+}
+.btn-angular{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-angular:hover{
+    background-color: #f45626;
+}
+.btn-flutter{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+
+}
+.btn-flutter:hover{
+    background-color: #f45626;
+}
+
+/* Contact section */
+.contact{
+    background-color: #f0dfda;
+    height: 620px;
+    border-radius: 6px;
+    margin-right: 124px;
+    margin-left: 124px;
+
+}
+.contact_form{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: relative;
+    margin-left: 33%;
+    /* margin-right: 100px; */
+    
+}
+form{
+    margin: 35px;
+    
+    /* position: relative;
+    justify-content: center;
+    align-items: center; */
+}
+.input_field{
+    width: 400px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #f9efef;
+    font-family: "Barlow", sans-serif;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea_field{
+    height: 150px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    /* padding-bottom: 10px; */
+}
+.btn_submit{
+    display: block;
+    width: 150px;
+    height: 47px;
+    margin: auto;
+    padding: 8px 26px;
+    font-size: 16px;
+    background-color: #ff7b54;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+}
+.btn_submit:hover{
+    background-color: #f45626;
+}
+#name_place:hover{
+    transition: 0.3s;
+    border: 2px solid #ff7b54;
+}
+#email_place:hover{
+    transition: 0.3s;
+    border: 2px solid #ff7b54;
+}
+#course_place:hover{
+    transition: 0.3s;
+    border: 2px solid #ff7b54;
+}
+#textarea_place:hover{
+    transition: 0.3s;
+    border: 2px solid #ff7b54;
+}
+
+.h-primary-1{
+    font-size: 2.5rem;
+    padding: 17px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    color:#f45626;
+}
+
+/* footer section */
+.bottom{
+    
+    display: block;
+    width: 390px;
+    font-weight: 600;
+    color: #f45626;
+    padding: 10px 59px;
+    height: 30px;
+    margin: auto;
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 2.5rem;
+    padding: 17px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+}
+.h-secondary{
+    font-size: 1.25rem;
+    padding: 17px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+
+}
